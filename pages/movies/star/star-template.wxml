@@ -1,0 +1,9 @@
+<template name="statTemplate">
+    <view class='star-container'>
+        <view class="stars">
+            <view class="star-after">★★★★★</view>
+            <view class="star-before" style='width:{{stars}}%'>★★★★★</view>
+        </view>
+        <text class='star-score'>{{score}}</text>
+    </view>
+</template>

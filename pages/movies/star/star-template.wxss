@@ -1,0 +1,22 @@
+.star-container {
+    display: flex;
+    /* position: relative; */
+    font-size: 12px;
+}
+.stars { 
+    margin-right: 24rpx;
+    position: relative;
+}
+.star-score {
+    color: #1f3464;
+}
+.star-after {
+    color: #e2e2e2;
+}
+.star-before {
+    color: #f19e38;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}

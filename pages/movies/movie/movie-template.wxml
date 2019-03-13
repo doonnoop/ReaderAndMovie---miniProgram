@@ -1,0 +1,8 @@
+<import src="../star/star-template.wxml" />
+<template name="movieTemplate">
+    <navigator url='/pages/movies/movie-detail/movie-detail?id={{movieId}}' class='movie-container'>
+        <image class='movie-img' src='{{coverageUrl}}'></image>
+        <text class='movie-title'>{{title}}</text>
+        <template is="statTemplate" data="{{stars: stars, score: average}}" />
+    </navigator>
+</template>
